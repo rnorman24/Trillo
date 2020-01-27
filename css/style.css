@@ -34,7 +34,7 @@ Grey dark 3: #999
 *,
 *::before,
 *::after {
-  box-sizing: border-box; }
+  box-sizing: inherit; }
 
 html {
   box-sizing: border-box;
@@ -49,3 +49,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  min-height: 50rem; }
