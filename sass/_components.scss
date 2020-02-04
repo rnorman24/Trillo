@@ -7,8 +7,10 @@
 ///////////////////////////////////////
 // SEARCH
 .search {
-  &__input {
+  background-color: orangered;
 
+  &__input {
+    
   }
 
   &__button {
@@ -26,7 +28,7 @@
 // USER NAVIGTION
 .user-nav {
   &__icon-box {
-
+    background-color: greenyellow;
   }
 
   &__icon {
