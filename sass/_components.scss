@@ -198,32 +198,34 @@
 ///////////////////////////////////////
 // HOTEL OVERVIEW
 .overview {
-   &__heading {
+  &__heading {
 
-   }
+  }
 
-   &__stars {
+  &__stars {
 
-   }
+  }
 
-   &__icon-star,
-   &__icon-location {
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
 
-   }
+  &__location {
 
-   &__location {
+  }
 
-   }
+  &__rating {
 
-   &__rating {
+  }
 
-   }
+  &__rating-average {
 
-   &__rating-average {
+  }
 
-   }
+  &__rating-count {
 
-   &__rating-count {
-     
-   }
+  }
 }
