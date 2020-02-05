@@ -94,8 +94,10 @@
 
   &__notification {
     font-size: .8rem;
-    height: .75rem;
-    width: .75rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
   }
 
   &__user {
