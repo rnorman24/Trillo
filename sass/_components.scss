@@ -198,12 +198,14 @@
 ///////////////////////////////////////
 // HOTEL OVERVIEW
 .overview {
+  display: flex;
+  
   &__heading {
 
   }
 
   &__stars {
-
+    margin-right: auto;
   }
 
   &__icon-star,
@@ -214,7 +216,7 @@
   }
 
   &__location {
-
+    
   }
 
   &__rating {
