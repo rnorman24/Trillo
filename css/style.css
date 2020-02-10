@@ -340,6 +340,13 @@ body {
     font-family: sans-serif;
     z-index: 1; }
 
+.cta {
+  padding-bottom: 3.5rem 0;
+  text-align: center; }
+  .cta__book-now {
+    font-size: 1.2rem;
+    font-weight: 300; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
