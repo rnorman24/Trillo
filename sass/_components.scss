@@ -378,6 +378,7 @@
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
+  position: relative;
 
   &__text {
     margin-bottom: 2rem;
@@ -417,5 +418,10 @@
     color: var(--color-primary);
     font-size: 2.2rem;
     font-weight: 300;
+  }
+
+  &::before {
+    content: "\201C";
+    position: absolute;
   }
 }
