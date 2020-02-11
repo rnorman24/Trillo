@@ -460,7 +460,8 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.25em) {
     .header {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      height: 11rem; } }
 
 .content {
   display: flex; }
