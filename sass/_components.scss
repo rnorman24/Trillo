@@ -382,6 +382,7 @@
   }
 
   &__friends {
+    display: flex;
   }
 
   &__photo {
@@ -406,6 +407,11 @@
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
 
   &__text {
     margin-bottom: 2rem;
@@ -472,6 +478,10 @@
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      padding: 2.5rem 0;
+    }
   }
 }
 
