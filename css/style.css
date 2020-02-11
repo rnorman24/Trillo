@@ -189,12 +189,12 @@ body {
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
-  @media only screen and (max-width: 37.5em) {
-    .side-nav {
-      margin-right: 0;
-      margin-bottom: .7rem;
-      width: 1.5rem;
-      height: 1.5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__icon {
+        margin-right: 0;
+        margin-bottom: .7rem;
+        width: 1.5rem;
+        height: 1.5rem; } }
 
 .legal {
   font-size: 1.2rem;
