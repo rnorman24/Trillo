@@ -12,6 +12,10 @@ package-lock.json
 *.sass.map
 *.scss.map
 
+# css
+*.comp.css
+*.prefix.css
+
 # testing
 /coverage
 
